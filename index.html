@@ -5,10 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Pesona SULUT</title>
     <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/custom.css" />
   </head>
   <body>
     <!-- NAVIGASI -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary p-4">
+    <nav
+      class="navbar navbar-expand-lg p-4 z-1 blur sticky-top border-bottom border-dark-subtle"
+    >
       <div class="container-fluid">
         <a class="navbar-brand" href="#">Pesona <b>SULUT</b>.</a>
         <button
@@ -36,17 +39,19 @@
               <a class="nav-link" href="/blog/">Blog</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/login/">Login</a>
+              <a class="nav-link text-primary fw-medium" href="/login/"
+                >Login</a
+              >
             </li>
           </ul>
           <form class="d-flex" role="search">
             <input
-              class="form-control me-2"
+              class="form-control me-2 blur"
               type="search"
               placeholder="Pencarian"
               aria-label="Search"
             />
-            <button class="btn btn-outline-success" type="submit">Cari</button>
+            <button class="btn btn-secondary" type="submit">Cari</button>
           </form>
         </div>
       </div>
@@ -54,10 +59,109 @@
     <!-- NAVIGASI -->
 
     <!-- KONTEN WEBSITE -->
-    <div class="w-100 vh-100">
-      <h1 class="position-absolute top-50 start-50 translate-middle">
-        BERANDA
-      </h1>
+    <div
+      class="container-fluid vh-100 rounded-bottom-5"
+      style="
+        background-image: url(assets/img/brama-djabar-TG4UvuBVJXE-unsplash.jpg);
+        background-position: center;
+        background-size: cover;
+      "
+    >
+      <div
+        class="text-shadow text-center text-white w-100 position-absolute top-50 start-50 translate-middle"
+      >
+        <h1 class="p-3 p-sm-3 p-md-5 pb-md-0 fw-bolder display-1">
+          Selamat Datang di Sulawesi Utara.
+        </h1>
+        <p class="p-3 p-sm-3 p-md-3 pb-md-0 display-6 fs-3">
+          Datang serta jelajahi keindahan alam dan budaya yang menarik!
+        </p>
+      </div>
+    </div>
+
+    <div class="container">
+      <h2 class="p-5 fw-bolder display-6 text-center">
+        Kenapa Memilih Sulawesi Utara?
+      </h2>
+      <div
+        class="p-5 pt-0 mb-4 row row-cols-1 row-cols-sm-2 justify-content-sm-center row-cols-md-3 g-5"
+      >
+        <div class="col">
+          <div class="card h-100">
+            <img
+              src="assets/img/sea-star-starfish-2336889_640.jpg"
+              width="320"
+              height="320"
+              class="card-img-top object-fit-cover"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Keajaiban Alam yang Memukau</h5>
+              <p class="card-text">
+                Jelajahi keanekaragaman hayati di Taman Nasional Bunaken, atau
+                melihat matahari terbenam yang memukau di Pulau Manado Tua.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img
+              src="assets/img/fashion-4552686_640.jpg"
+              width="320"
+              height="320"
+              class="card-img-top object-fit-cover"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Kekayaan Budaya yang Ajaib</h5>
+              <p class="card-text">
+                Kerajinan tangan unik di pasar tradisional, saksikan pertunjukan
+                tari dan musik tradisional atau ikuti perayaan bersama
+                masyarakat lokal.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img
+              src="assets/img/dimitry-b-LbrtLtsZXY4-unsplash.jpg"
+              width="320"
+              height="320"
+              class="card-img-top object-fit-cover"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Petualangan yang Tak Terlupakan</h5>
+              <p class="card-text">
+                Menyelam di terumbu karang yang memukau, mendaki gunung yang
+                menantang, ini petualangan bagi setiap jenis wisatawan yang
+                datang.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="container-fluid rounded-top-5"
+      style="
+        height: 660px;
+        background-image: url(assets/img/pieter-janaldo-O9Ce0edTic8-unsplash.jpg);
+        background-position: center;
+        background-size: cover;
+      "
+    >
+      <div class="px-4 pt-5 my-5 text-center text-white text-shadow">
+        <h1 class="display-6 fw-bold mb-4 mt-5">
+          Temukan Pengalaman di Sulawesi Utara
+        </h1>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mb-4">Sudah siap untuk menjelajahi Sulawesi Utara?</p>
+          <button type="button" class="btn btn-primary btn-lg">
+            Jelajahi sekarang
+          </button>
+        </div>
+      </div>
     </div>
     <!-- KONTEN WEBSITE -->
 

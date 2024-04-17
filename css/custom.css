@@ -6,3 +6,12 @@
 .text-shadow {
   text-shadow: 0px 0px 16px rgba(0, 0, 0, 0.3);
 }
+
+@media only screen and (max-width: 992px) {
+  .left-border {
+    border-left-color: rgb(173, 181, 189) !important;
+    border-left-style: solid !important;
+    border-left-width: 1px !important;
+    border-radius: 1rem !important;
+  }
+}

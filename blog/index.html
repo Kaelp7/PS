@@ -3,12 +3,15 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Pesona SULUT</title>
-    <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    <title>Pesona SULUT | BLOG</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/custom.css" />
   </head>
   <body>
     <!-- NAVIGASI -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary p-4">
+    <nav
+      class="navbar navbar-expand-lg p-4 z-1 blur sticky-top border-bottom border-dark-subtle"
+    >
       <div class="container-fluid">
         <a class="navbar-brand" href="#">Pesona <b>SULUT</b>.</a>
         <button
@@ -30,23 +33,25 @@
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/wisata/">Tempat Wisata</a>
+              <a class="nav-link" href="../wisata/">Tempat Wisata</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/blog/">Blog</a>
+              <a class="nav-link" href="../blog/">Blog</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/login/">Login</a>
+              <a class="nav-link text-primary fw-medium" href="../login/"
+                >Login</a
+              >
             </li>
           </ul>
           <form class="d-flex" role="search">
             <input
-              class="form-control me-2"
+              class="form-control me-2 blur"
               type="search"
               placeholder="Pencarian"
               aria-label="Search"
             />
-            <button class="btn btn-outline-success" type="submit">Cari</button>
+            <button class="btn btn-secondary" type="submit">Cari</button>
           </form>
         </div>
       </div>
@@ -54,9 +59,264 @@
     <!-- NAVIGASI -->
 
     <!-- KONTEN WEBSITE -->
-    <div class="w-100 vh-100">
-      <h1 class="position-absolute top-50 start-50 translate-middle">BLOG</h1>
+    <div
+      class="container-fluid rounded-top-5 mt-4"
+      style="
+        height: 280px;
+        background-image: url(../assets/img/ivan-gromov-Y3vPEuNlf7w-unsplash.jpg);
+        background-position: center;
+        background-size: cover;
+      "
+    >
+      <div class="px-4 pt-4 text-center text-white text-shadow">
+        <h1 class="display-6 fw-bold mb-4 mt-4">Blog</h1>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mb-4">
+            Temukan cerita-cerita menarik, tips perjalanan yang berguna, dan
+            wawasan lokal yang mendalam di blog Pesona SULUT.
+          </p>
+        </div>
+      </div>
     </div>
+
+    <div class="container my-4 w-75">
+      <div class="row justify-content-center py-4">
+        <div
+          class="d-flex p-0 rounded-4 border border-start-0 border-dark-subtle left-border"
+        >
+          <img
+            class="d-none d-lg-block rounded-4 object-fit-cover"
+            src="../assets/blog-thumbnail/Gunung_Api_Lokon.jpg"
+            width="320"
+            alt=""
+          />
+          <div class="d-flex p-4 flex-column justify-content-between">
+            <div class="d-flex flex-column">
+              <p class="text-body-secondary mb-2">18 April 2024</p>
+              <h2 class="fw-bolder">
+                Mendaki Gunung Lokon: Petualangan Seru di Puncak Sulawesi Utara
+              </h2>
+              <div class="d-flex align-items-center py-2 mb-3">
+                <img
+                  class="object-fit-cover rounded-circle"
+                  src="/assets/profile-picture/anthony-riera-kylWNDQFd5A-unsplash.jpg"
+                  alt=""
+                  width="36"
+                  height="36"
+                />
+                <p class="mb-0 ms-2 fw-medium">Andi Typescript</p>
+              </div>
+            </div>
+            <p>
+              Rasakan sensasi mendebarkan mendaki Gunung Lokon, salah satu
+              gunung berapi paling aktif di Sulawesi Utara. Nikmati pemandangan
+              spektakuler dari puncak, jelajahi alam liar yang menakjubkan, dan
+              nikmati kebersamaan dengan alam.
+            </p>
+            <a
+              href="post/mendaki.html"
+              class="icon-link gap-1 icon-link-hover d-block"
+              style="max-width: fit-content"
+            >
+              Selengkapnya
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-chevron-right"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="row justify-content-center py-4">
+        <div
+          class="d-flex p-0 rounded-4 border border-start-0 border-dark-subtle left-border"
+        >
+          <img
+            class="d-none d-lg-block rounded-4 object-fit-cover"
+            src="../assets/blog-thumbnail/crispin-jones-VGpiMzg45HE-unsplash.jpg"
+            width="320"
+            alt=""
+          />
+          <div class="d-flex p-4 flex-column justify-content-between">
+            <div class="d-flex flex-column">
+              <p class="text-body-secondary mb-2">17 April 2024</p>
+              <h2 class="fw-bolder">
+                Melihat Matahari Terbenam di Pantai Manado Tua
+              </h2>
+              <div class="d-flex align-items-center py-2 mb-3">
+                <img
+                  class="object-fit-cover rounded-circle"
+                  src="/assets/profile-picture/evie-s-w1JE5duY62M-unsplash.jpg"
+                  alt=""
+                  width="36"
+                  height="36"
+                />
+                <p class="mb-0 ms-2 fw-medium">Putri Agile</p>
+              </div>
+            </div>
+            <p>
+              Keindahan dramatis matahari terbenam di Pantai Manado Tua. Dengan
+              latar belakang Pulau Bunaken yang megah, momen magis ini adalah
+              pengalaman yang tak boleh dilewatkan saat Anda berada di Sulawesi
+              Utara. Bersiaplah untuk terpesona oleh keindahan alam yang
+              memukau.
+            </p>
+            <a
+              href="#"
+              class="icon-link gap-1 icon-link-hover d-block"
+              style="max-width: fit-content"
+            >
+              Selengkapnya
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-chevron-right"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="row justify-content-center py-4">
+        <div
+          class="d-flex p-0 rounded-4 border border-start-0 border-dark-subtle left-border"
+        >
+          <img
+            class="d-none d-lg-block rounded-4 object-fit-cover"
+            src="../assets/blog-thumbnail/kezia-gabriela-Fw3MdUmhCL0-unsplash.jpg"
+            width="320"
+            alt=""
+          />
+          <div class="d-flex p-4 flex-column justify-content-between">
+            <div class="d-flex flex-column">
+              <p class="text-body-secondary mb-2">16 April 2024</p>
+              <h2 class="fw-bolder">
+                Merayakan Budaya Lokal di Desa Wisata Tomohon
+              </h2>
+              <div class="d-flex align-items-center py-2 mb-3">
+                <img
+                  class="object-fit-cover rounded-circle"
+                  src="/assets/profile-picture/landovan-4aSkbR8Kdwk-unsplash.jpg"
+                  alt=""
+                  width="36"
+                  height="36"
+                />
+                <p class="mb-0 ms-2 fw-medium">Tatang Ajax</p>
+              </div>
+            </div>
+            <p>
+              Ikuti jejak lokal di Desa Wisata Tomohon, tempat Anda dapat
+              merasakan kehidupan sehari-hari masyarakat Sulawesi Utara.
+              Saksikan upacara adat, ikuti workshop kerajinan tangan
+              tradisional, dan nikmati hidangan khas Sulawesi Utara yang lezat.
+            </p>
+            <a
+              href="#"
+              class="icon-link gap-1 icon-link-hover d-block"
+              style="max-width: fit-content"
+            >
+              Selengkapnya
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-chevron-right"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="row justify-content-center py-4">
+        <div
+          class="d-flex p-0 rounded-4 border border-start-0 border-dark-subtle left-border"
+        >
+          <img
+            class="d-none d-lg-block rounded-4 object-fit-cover"
+            src="../assets/blog-thumbnail/claus-giering--4S_-SpsIgM-unsplash.jpg"
+            width="320"
+            alt=""
+          />
+          <div class="d-flex p-4 flex-column justify-content-between">
+            <div class="d-flex flex-column">
+              <p class="text-body-secondary mb-2">15 April 2024</p>
+              <h2 class="fw-bolder">
+                Menyelam di Keindahan Bawah Laut Bunaken
+              </h2>
+              <div class="d-flex align-items-center py-2 mb-3">
+                <img
+                  class="object-fit-cover rounded-circle"
+                  src="/assets/profile-picture/no-revisions-gA81ZTsql68-unsplash.jpg"
+                  alt=""
+                  width="36"
+                  height="36"
+                />
+                <p class="mb-0 ms-2 fw-medium">Desi Perl</p>
+              </div>
+            </div>
+            <p>
+              Telusuri keajaiban dunia bawah laut di Taman Nasional Bunaken.
+              Temukan keindahan terumbu karang yang memukau, berbagai spesies
+              ikan yang berwarna-warni, dan pengalaman menyelam yang tak
+              terlupakan di destinasi ini.
+            </p>
+            <a
+              href="#"
+              class="icon-link gap-1 icon-link-hover d-block"
+              style="max-width: fit-content"
+            >
+              Selengkapnya
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-chevron-right"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <nav class="mt-3 blog-pagination" aria-label="Pagination">
+        <a class="btn btn-outline-primary" href="#">Terlama</a>
+        <a class="btn btn-outline-secondary disabled" aria-disabled="true"
+          >Terbaru</a
+        >
+      </nav>
+    </div>
+
     <!-- KONTEN WEBSITE -->
 
     <!-- FOOTER -->

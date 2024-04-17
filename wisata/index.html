@@ -1,89 +1,252 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Pesona SULUT</title>
-    <link rel="stylesheet" href="/css/bootstrap.min.css" />
-  </head>
-  <body>
-    <!-- NAVIGASI -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary p-4">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Pesona <b>SULUT</b>.</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="../"
-                >Beranda</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/wisata/">Tempat Wisata</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/blog/">Blog</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/login/">Login</a>
-            </li>
-          </ul>
-          <form class="d-flex" role="search">
-            <input
-              class="form-control me-2"
-              type="search"
-              placeholder="Pencarian"
-              aria-label="Search"
-            />
-            <button class="btn btn-outline-success" type="submit">Cari</button>
-          </form>
-        </div>
-      </div>
-    </nav>
-    <!-- NAVIGASI -->
 
-    <!-- KONTEN WEBSITE -->
-    <div class="w-100 vh-100">
-      <h1 class="position-absolute top-50 start-50 translate-middle">WISATA</h1>
-    </div>
-    <!-- KONTEN WEBSITE -->
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Pesona SULUT</title>
+  <link rel="stylesheet" href="../css/bootstrap.min.css" />
+  <link rel="stylesheet" href="../css/custom.css">
 
-    <!-- FOOTER -->
-    <div class="container">
-      <footer
-        class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
-      >
-        <p class="col-md-4 mb-0 text-body-secondary">
-          © 2024 Pesona <b>SULUT</b>.
-        </p>
+  <style>
+    a {
+      text-decoration: none;
+      color: #000;
+    }
+  </style>
+</head>
 
-        <ul class="nav col-md-4 justify-content-end">
+<body>
+  <!-- NAVIGASI -->
+  <nav class="navbar navbar-expand-lg p-4 z-1 blur sticky-top border-bottom border-dark-subtle">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Pesona <b>SULUT</b>.</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a href="/tentang/" class="nav-link px-2 text-body-secondary"
-              >Tentang Kami</a
-            >
+            <a class="nav-link active" aria-current="page" href="../index.html">Beranda</a>
           </li>
           <li class="nav-item">
-            <a href="/privasi/" class="nav-link px-2 text-body-secondary"
-              >Kebijakan Privasi</a
-            >
+            <a class="nav-link" href="#">Tempat Wisata</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../blog/index.html">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-primary fw-medium" href="../login/index.html">Login</a>
           </li>
         </ul>
-      </footer>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2 blur" type="search" placeholder="Pencarian" aria-label="Search" />
+          <button class="btn btn-secondary" type="submit">Cari</button>
+        </form>
+      </div>
     </div>
-    <!-- FOOTER -->
+  </nav>
+  <!-- NAVIGASI -->
 
-    <script async src="js/bootstrap.bundle.min.js"></script>
-  </body>
+  <!-- KONTEN WEBSITE -->
+
+  <div class="container-fluid vh-100" style="
+        background-image: url(../assets/img/brama-djabar-TG4UvuBVJXE-unsplash.jpg);
+        background-position: center;
+        background-size: cover;
+      ">
+    <div class="text-shadow text-center text-white w-100 position-absolute top-50 start-50 translate-middle">
+      <h1 class="p-3 p-sm-3 p-md-5 pb-md-0 fw-bolder display-1">
+        Selamat Datang di Sulawesi Utara.
+      </h1>
+      <p class="p-3 p-sm-3 p-md-3 pb-md-0 display-6 fs-3">
+        Jelajahi Keindahan Alam dan Budaya yang Memikat
+      </p>
+    </div>
+  </div>
+  <div class="container">
+    <h2 class="p-5 fw-bolder display-6 text-center">Wisata Rekomendasi</h2>
+    <div class="p-5 pt-0 mb-4 row row-cols-1 row-cols-sm-2  row-cols-md-3 g-5 flex-nowrap overflow-x-auto">
+      <div class="col">
+        <div class="card h-100">
+          <a href="#">
+            <img src="../assets/img/sea-star-starfish-2336889_640.jpg" width="320" height="320"
+              class="card-img-top object-fit-cover" />
+            <div class="card-body">
+              <h5 class="card-title">Keajaiban Alam yang Memukau</h5>
+              <p class="card-text">
+                Jelajahi keanekaragaman hayati di Taman Nasional Bunaken, atau
+                melihat matahari terbenam yang memukau di Pulau Manado Tua.
+              </p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <a href="">
+            <img src="../assets/img/fashion-4552686_640.jpg" width="320" height="320"
+              class="card-img-top object-fit-cover" />
+            <div class="card-body">
+              <h5 class="card-title">Kekayaan Budaya yang Ajaib</h5>
+              <p class="card-text">
+                Kerajinan tangan unik di pasar tradisional, saksikan pertunjukan
+                tari dan musik tradisional atau ikuti perayaan bersama
+                masyarakat lokal.
+              </p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <a href="">
+            <img src="../assets/img/dimitry-b-LbrtLtsZXY4-unsplash.jpg" width="320" height="320"
+              class="card-img-top object-fit-cover" />
+            <div class="card-body">
+              <h5 class="card-title">Petualangan yang Tak Terlupakan</h5>
+              <p class="card-text">
+                Menyelam di terumbu karang yang memukau, mendaki gunung yang
+                menantang, ini petualangan bagi setiap jenis wisatawan yang
+                datang.
+              </p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <a href="#">
+            <img src="../assets/img/sea-star-starfish-2336889_640.jpg" width="320" height="320"
+              class="card-img-top object-fit-cover" />
+            <div class="card-body">
+              <h5 class="card-title">Keajaiban Alam yang Memukau</h5>
+              <p class="card-text">
+                Jelajahi keanekaragaman hayati di Taman Nasional Bunaken, atau
+                melihat matahari terbenam yang memukau di Pulau Manado Tua.
+              </p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <a href="">
+            <img src="../assets/img/fashion-4552686_640.jpg" width="320" height="320"
+              class="card-img-top object-fit-cover" />
+            <div class="card-body">
+              <h5 class="card-title">Kekayaan Budaya yang Ajaib</h5>
+              <p class="card-text">
+                Kerajinan tangan unik di pasar tradisional, saksikan pertunjukan
+                tari dan musik tradisional atau ikuti perayaan bersama
+                masyarakat lokal.
+              </p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <a href="">
+            <img src="../assets/img/dimitry-b-LbrtLtsZXY4-unsplash.jpg" width="320" height="320"
+              class="card-img-top object-fit-cover" />
+            <div class="card-body">
+              <h5 class="card-title">Petualangan yang Tak Terlupakan</h5>
+              <p class="card-text">
+                Menyelam di terumbu karang yang memukau, mendaki gunung yang
+                menantang, ini petualangan bagi setiap jenis wisatawan yang
+                datang.
+              </p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <a href="https://getbootstrap.com/docs/5.3/getting-started/introduction/">
+            <img src="../assets/img/sea-star-starfish-2336889_640.jpg" width="320" height="320"
+              class="card-img-top object-fit-cover" />
+            <div class="card-body">
+              <h5 class="card-title">Keajaiban Alam yang Memukau</h5>
+              <p class="card-text">
+                Jelajahi keanekaragaman hayati di Taman Nasional Bunaken, atau
+                melihat matahari terbenam yang memukau di Pulau Manado Tua.
+              </p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <h2 class="p-5 fw-bolder display-6 text-center">Semua Wisata</h2>
+    <div class="p-5 pt-0 mb-4 row row-cols-1 row-cols-sm-2 justify-content-sm-center row-cols-md-3 g-5">
+      <div class="col">
+        <div class="card h-100">
+          <img src="../assets/img/sea-star-starfish-2336889_640.jpg" width="320" height="320"
+            class="card-img-top object-fit-cover" />
+          <div class="card-body">
+            <h5 class="card-title">Keajaiban Alam yang Memukau</h5>
+            <p class="card-text">
+              Jelajahi keanekaragaman hayati di Taman Nasional Bunaken, atau
+              melihat matahari terbenam yang memukau di Pulau Manado Tua.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="../assets/img/fashion-4552686_640.jpg" width="320" height="320"
+            class="card-img-top object-fit-cover" />
+          <div class="card-body">
+            <h5 class="card-title">Kekayaan Budaya yang Ajaib</h5>
+            <p class="card-text">
+              Kerajinan tangan unik di pasar tradisional, saksikan pertunjukan
+              tari dan musik tradisional atau ikuti perayaan bersama
+              masyarakat lokal.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="../assets/img/dimitry-b-LbrtLtsZXY4-unsplash.jpg" width="320" height="320"
+            class="card-img-top object-fit-cover" />
+          <div class="card-body">
+            <h5 class="card-title">Petualangan yang Tak Terlupakan</h5>
+            <p class="card-text">
+              Menyelam di terumbu karang yang memukau, mendaki gunung yang
+              menantang, ini petualangan bagi setiap jenis wisatawan yang
+              datang.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- KONTEN WEBSITE -->
+
+  <!-- FOOTER -->
+  <div class="container">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+      <p class="col-md-4 mb-0 text-body-secondary">
+        © 2024 Pesona <b>SULUT</b>.
+      </p>
+
+      <ul class="nav col-md-4 justify-content-end">
+        <li class="nav-item">
+          <a href="/tentang/" class="nav-link px-2 text-body-secondary">Tentang Kami</a>
+        </li>
+        <li class="nav-item">
+          <a href="/privasi/" class="nav-link px-2 text-body-secondary">Kebijakan Privasi</a>
+        </li>
+      </ul>
+    </footer>
+  </div>
+  <!-- FOOTER -->
+
+  <script async src="../js/bootstrap.bundle.min.js"></script>
+</body>
+
 </html>
